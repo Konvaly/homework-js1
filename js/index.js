@@ -108,7 +108,7 @@ if (!test1) {
 const sumPurchase = Number(prompt("Input sum of your purchase: "));
 if (sumPurchase > 800) {
   alert("Your discount is 5%! It's  " + sumPurchase * 0.95);
-} else if (sumPurchase > 500 && sumPurchase < 800) {
+} else if (sumPurchase > 500 && sumPurchase <= 800) {
   alert("Your discount is 3%! It's  " + sumPurchase * 0.97);
 } else {
   alert("You don't have discount");

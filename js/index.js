@@ -59,14 +59,14 @@ alert("The square of your number is " + numberSquare);
 
 const userNumber1 = Number(prompt("Input first number: "));
 const userNumber2 = Number(prompt("Input second number: "));
-const numberAverage = (userNumber1 * userNumber2) / 2;
+const numberAverage = (userNumber1 + userNumber2) / 2;
 alert("The arithmetic mean of your numbers is " + numberAverage);
 
 // /* 3) Перевести число минут в секунды. Число спрашивать у пользователя. */
 
-const numberMinute = Number(prompt("Input the number of minutes: "));
-const numberSecond = numberMinute * 60;
-alert("The number of seconds is: " + numberSecond);
+const minuteCount = Number(prompt("Input the number of minutes: "));
+const secondsAmount = minuteCount * 60;
+alert("The number of seconds is: " + secondsAmount);
 
 // /* 4) Создайте переменную greeting со значением 'Hello, ' и объявите переменную userName. Спросите имя пользователя и занесите данное значение в переменную userName. С помощью диалога выведите сообщение с приветствием. Например, 'Hello, Vasya!'. */
 
@@ -111,7 +111,7 @@ if (sumPurchase > 800) {
 } else if (sumPurchase > 500 && sumPurchase < 800) {
   alert("Your discount is 3%! It's  " + sumPurchase * 0.97);
 } else {
-  alert("You are inputting not a number. Please input a number");
+  alert("You don't have discount");
 }
 
 /* Таски на циклы. Каждую задачу решить всеми тремя циклами!
